@@ -1,10 +1,6 @@
 <template>
-  <div class="container">
-    <h1>Hello</h1>
-    <div class="row">
-      <div class="col-sm">
-        <button class="btn btn-primary">click</button>
-      </div>
-    </div>
+  <div class="content text-center">
+    <h1 class="txt-center">Empreinte environnementale d'un site Internet</h1>
+    <div class="row"></div>
   </div>
 </template>
