@@ -7,7 +7,7 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import '@fortawesome/fontawesome-free/css/all.css'
-import 'bootswatch/dist/cosmo/bootstrap.min.css'
+import 'bootswatch/dist/spacelab/bootstrap.min.css'
 
 const app = createApp(App)
 
