@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <div class="row text-bg-success p-1">
+    <div class="row text-bg-light">
       <img
-        class="img-fluid"
+        class="img-fluid p-0 text-center rounded mx-auto d-block"
         src="/src/assets/images/cycle_de_vie_siteweb.png"
         alt="cycle de vie d'un site Internet"
         style="filter: brightness(0.8); max-width: 2500px; max-height: 800px"
@@ -13,7 +13,7 @@
     <div class="row text-bg-light text-center">
       <div>
         <img
-          class="img-fluid p-1"
+          class="img-fluid p-3"
           src="/src/assets/images/fonctionnementRechercheInternet.png"
           alt="fonctionnement d'un moteur de recherche"
         />
@@ -91,10 +91,10 @@
             </p>
             <a href="https://www.ipcc.ch/">source: IPCC</a>
           </div>
-          <div class="col-md-5">
+          <div class="row p-0 col-md-5 order-md-1">
             <img
               id="img1"
-              class="rounded mx-auto d-block"
+              class="img-fluid mx-auto d-block"
               alt="image_impact"
               src="/src/assets/images/img_impact.png"
             />
@@ -123,7 +123,7 @@
             </p>
             <a href="https://www.ipcc.ch/">source: IPCC</a>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="row p-0 col-md-5 order-md-1">
             <img
               class="rounded mx-auto d-block"
               alt="image2"
@@ -151,18 +151,17 @@
             </p>
             <a href="https://fr.wikipedia.org/wiki/Limites_plan%C3%A9taires">source: wikipedia</a>
           </div>
-          <div class="col-md-5">
+          <div class="row p-0 col-md-5 order-md-1">
             <img
               id="img1"
-              class="rounded mx-auto d-block"
+              class="img-fluid mx-auto d-block"
               alt="image4"
               src="/src/assets/images/limites_planetaires.png"
             />
           </div>
         </div>
         <hr class="featurette-divider" />
-
-        <div class="row featurette">
+        <div class="row p-3">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">
               Voici quelques outils en ligne pour obtenir une estimation de l'empreinte carbone de
@@ -174,9 +173,9 @@
               employées ne sont pas toujours clairement expliquées.
             </p>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="row p-0 col-md-5 order-md-1">
             <img
-              class="rounded mx-auto d-block"
+              class="mx-auto d-block"
               alt="image5"
               id="img1"
               src="/src/assets/images/eco_label.png"
