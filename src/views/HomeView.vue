@@ -15,7 +15,7 @@
         <img
           class="img-fluid p-1"
           src="/src/assets/images/fonctionnementRechercheInternet.png"
-          alt="cycle de vie d'un site Internet"
+          alt="fonctionnement d'un moteur de recherche"
         />
         <p>
           <a class="https://www.schoolmouv.fr/cours/un-monde-de-reseaux/fiche-de-cours"
@@ -23,11 +23,11 @@
           >
         </p>
       </div>
-      <h2 class="fw-bold p-3">Empreinte environnementale d'un site Internet</h2>
+      <h1 class="fw-bold p-3">Empreinte environnementale d'un site Internet</h1>
       <!-- Trois columnes de texte au-dessous de carousel -->
       <div class="row text-center">
         <div class="col-lg-4">
-          <img class="img-cercle" src="/src/assets/images/rts.png" />
+          <img class="img-cercle" src="/src/assets/images/rts.png" alt="logo_rts" />
 
           <h2>Le coût écologique du clic</h2>
           <p>Reportage de la RTS</p>
@@ -44,6 +44,7 @@
           <img
             class="img-cercle"
             src="https://www.architectes.org/sites/default/files/ecoconception_037348500_1623_161220151.png"
+            alt="logo_ecoconception"
           />
           <h2>Éco-concenption</h2>
           <p>Dévéloppement des sites web responsables</p>
@@ -60,6 +61,7 @@
           <img
             class="img-cercle"
             src="https://leclaireur.fnac.com/wp-content/uploads/2022/07/livres-1200.jpg"
+            alt="logo_litterature"
           />
           <h2>Littérature</h2>
           <p>Ouvrages d'actualité</p>
@@ -124,7 +126,7 @@
           <div class="col-md-5 order-md-1">
             <img
               class="rounded mx-auto d-block"
-              alt="image5"
+              alt="image2"
               id="img1"
               src="/src/assets/images/img2.png"
             />
