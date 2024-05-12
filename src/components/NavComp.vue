@@ -3,7 +3,7 @@
     <div class="container text-light justify-content-between">
       <router-link to="/" class="navbar-brand text-light fw-bold">Eco-web</router-link>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler bg-light"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -14,7 +14,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav me-auto nav-dark">
           <li class="nav-item">
             <router-link to="/" class="nav-link active" aria-current="page">
               <a class="text-light text-center nav-link active fs-5">Empreinte écologique</a>
