@@ -1,17 +1,17 @@
 <template>
   <hr class="featurette-divider" />
-  <footer class="text-muted py-5">
-    <div class="container">
+  <footer class="text-muted py-5 bg-primary">
+    <div class="container text-light">
       <p class="float-end mb-1">
-        <a href="#">Back to top</a>
+        <a class="text-warning" href="https://www.he-arc.ch/" target="_blank">Institution</a>
       </p>
       <p class="mb-1">
-        Cette page web a été realisé par un étudiant de la formation informatique de gestion à la
-        HEG-IG
+        Ce site web a été créé dans le but de fournir des informations détaillées sur le sujet de
+        mon travail de Bachelor en informatique de gestion à la HEG-IG.
       </p>
       <p class="mb-0">
         Agit maintenant pour la protection de l'environnement, un click fait la différence !
-        <a href="https://www.he-arc.ch/" target="_blank">Institution</a>
+        <a class="text-warning" href="#">Back to top</a>
       </p>
     </div>
   </footer>

@@ -182,6 +182,22 @@
             />
           </div>
         </div>
+        <hr class="featurette-divider" />
+        <div class="row-fluid text-center">
+          <div class="col bg-light py-3 order-md-2 text-center">
+            <img class="img-cercle" src="/src/assets/images/photo_cv_2024.jpg" />
+            <h2 class="margin">Fredy Rodriguez</h2>
+            <p class="margin">Etudiant en informatique de gestion</p>
+            <p class="margin">
+              <a
+                class="btn btn-secondary"
+                href="https://www.linkedin.com/in/fredy-rodriguez-1a736a132/"
+                target="_blank"
+                >Voir plus &raquo;</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
