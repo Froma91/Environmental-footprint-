@@ -1,29 +1,61 @@
 <template>
-  <div class="container-fluid">
-    <div class="row text-bg-light">
+  <div class="container-fluid p-0 m-0 bg-light text-dark" style="font-family: 'Arial', sans-serif">
+    <div class="row">
       <img
         class="img-fluid p-0 text-center rounded mx-auto d-block"
-        src="/src/assets/images/cycle_de_vie_siteweb.png"
-        alt="cycle de vie d'un site Internet"
-        style="filter: brightness(0.8); max-width: 2500px; max-height: 800px"
+        src="/src/assets/images/Conception.png"
+        alt="Cycle de vie d'un site Internet"
+        style="filter: brightness(0.8); max-width: 100%; height: auto"
       />
     </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row text-bg-light text-center">
-      <div>
-        <img
-          class="img-fluid p-3"
-          src="/src/assets/images/fonctionnementRechercheInternet.png"
-          alt="fonctionnement d'un moteur de recherche"
-        />
-        <p>
-          <a class="https://www.schoolmouv.fr/cours/un-monde-de-reseaux/fiche-de-cours"
-            >source: schoolmouv</a
-          >
-        </p>
+
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="fw-bold text-center my-3">Le fonctionnement d'une recherche Internet</h2>
+          <p>
+            Lorsque vous effectuez une recherche sur internet, une série d'opérations complexes se
+            produit presque instantanément pour vous fournir des résultats pertinents. Voici les
+            étapes principales du fonctionnement d'une recherche sur internet :
+          </p>
+          <ul>
+            <li>
+              <strong>Saisie de la requête :</strong> Vous saisissez une requête dans la barre de
+              recherche de votre navigateur.
+            </li>
+            <li>
+              <strong>Envoi de la requête :</strong> Votre navigateur envoie la requête à un moteur
+              de recherche, qui va chercher les résultats les plus pertinents.
+            </li>
+            <li>
+              <strong>Traitement de la requête :</strong> Le moteur de recherche analyse la requête
+              et la compare à une immense base de données pour trouver les résultats les plus
+              pertinents.
+            </li>
+            <li>
+              <strong>Affichage des résultats :</strong> Le moteur de recherche affiche les
+              résultats les plus pertinents en fonction de votre requête.
+            </li>
+            <li>
+              <strong>Navigation sur les résultats :</strong> Vous pouvez cliquer sur les résultats
+              pour accéder aux pages web correspondantes.
+            </li>
+          </ul>
+          <img
+            class="img-fluid p-3"
+            src="/src/assets/images/fonctionnementRechercheInternet.png"
+            alt="Fonctionnement d'un moteur de recherche"
+            style="max-width: 100%; height: auto"
+          />
+          <p>
+            <a href="https://www.schoolmouv.fr/cours/un-monde-de-reseaux/fiche-de-cours"
+              >Source: SchoolMouv</a
+            >
+          </p>
+        </div>
       </div>
-      <h1 class="fw-bold p-3">Empreinte environnementale d'un site Internet</h1>
+
+      <h2 class="fw-bold text-center p-3">Empreinte environnementale d'un site Internet</h2>
       <!-- Trois columnes de texte au-dessous de carousel -->
       <div class="row text-center">
         <div class="col-lg-4">
@@ -78,11 +110,11 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">
+            <h3 class="featurette-heading">
               Une étude menée par le Groupe d'experts intergouvernemental sur l'évolution du climat
               (GIEC) explore les facteurs déterminants pour limiter le réchauffement climatique à
-              1,5 °C.
-            </h2>
+              <span class="badge rounded-pill bg-danger">1,5 °C.</span>
+            </h3>
             <p class="lead">
               Une réflexion approfondie doit être consacrée aux différents éléments qui influencent
               la « viabilité » des stratégies ou des choix d'adaptation et d'atténuation au sein de
@@ -91,12 +123,13 @@
             </p>
             <a href="https://www.ipcc.ch/">source: IPCC</a>
           </div>
-          <div class="row p-0 col-md-5 order-md-1">
+          <div class="row p-0 col-md-5 order-md-1 my-3">
             <img
               id="img1"
               class="img-fluid mx-auto d-block"
               alt="image_impact"
               src="/src/assets/images/img_impact.png"
+              style="filter: brightness(0.9); max-width: 400px; max-height: 300px"
             />
           </div>
         </div>
@@ -104,10 +137,11 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
-              Une étude de "THE SHIFT PROJECT" montre que le numérique est responsable de 4 % des
-              émissions de gaz à effet de serre mondiales.
-            </h2>
+            <h3 class="featurette-heading">
+              Une étude de "THE SHIFT PROJECT" montre que le numérique est responsable de
+              <span class="badge rounded-pill bg-warning text-dark">4 %</span> des émissions de gaz
+              à effet de serre mondiales.
+            </h3>
             <p class="lead">
               Les technologies numériques forment un réseau mondial : divers appareils tels que les
               smartphones, les ordinateurs et les tablettes sont interconnectés via diverses
@@ -123,12 +157,13 @@
             </p>
             <a href="https://www.ipcc.ch/">source: IPCC</a>
           </div>
-          <div class="row p-0 col-md-5 order-md-1">
+          <div class="row p-0 col-md-5 order-md-1 my-3">
             <img
               class="rounded mx-auto d-block"
               alt="image2"
               id="img1"
               src="/src/assets/images/img2.png"
+              style="filter: brightness(0.9); max-width: 450; max-height: 350px"
             />
           </div>
         </div>
@@ -136,10 +171,11 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">
-              Les 9 limites planétaires sont des seuils de tolérance pour neuf processus planétaires
-              qui régulent la stabilité et la résilience de la Terre.
-            </h2>
+            <h3 class="featurette-heading">
+              Les <span class="badge rounded-pill bg-success">9 limites planétaires</span> sont des
+              seuils de tolérance pour neuf processus planétaires qui régulent la stabilité et la
+              résilience de la Terre.
+            </h3>
             <p class="lead">
               Ces processus sont : le changement climatique, l'intégrité de la biosphère,
               l'acidification des océans, l'utilisation de l'eau douce, la perturbation du cycle
@@ -151,41 +187,48 @@
             </p>
             <a href="https://fr.wikipedia.org/wiki/Limites_plan%C3%A9taires">source: wikipedia</a>
           </div>
-          <div class="row p-0 col-md-5 order-md-1">
+          <div class="row p-0 col-md-5 order-md-1 my-3">
             <img
               id="img1"
-              class="img-fluid mx-auto d-block"
+              class="mx-auto d-block"
               alt="image4"
               src="/src/assets/images/limites_planetaires.png"
+              style="filter: brightness(0.9); max-width: 450px; max-height: 350px"
             />
           </div>
         </div>
         <hr class="featurette-divider" />
         <div class="row p-3">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
+            <h3 class="featurette-heading">
               Voici quelques outils en ligne pour obtenir une estimation de l'empreinte carbone de
               votre site internet :
-            </h2>
+            </h3>
             <p class="lead">
               Ce site internet propose une série de pages web qui permettent d'estimer l'empreinte
               carbone, mais il est recommandé de les utiliser avec précaution, car les méthodologies
               employées ne sont pas toujours clairement expliquées.
             </p>
+            <a href="https://dodonut.com/blog/digital-carbon-footprint-tools/">source: dodonut</a>
           </div>
-          <div class="row p-0 col-md-5 order-md-1">
+          <div class="row p-0 col-md-5 order-md-1 my-5">
             <img
               class="mx-auto d-block"
-              alt="image5"
-              id="img1"
+              alt="eco_label"
+              id="eco_label"
               src="/src/assets/images/eco_label.png"
+              style="filter: brightness(0.9); max-width: 510px; max-height: 150px"
             />
           </div>
         </div>
         <hr class="featurette-divider" />
         <div class="row-fluid text-center">
           <div class="col bg-light py-3 order-md-2 text-center">
-            <img class="img-cercle" src="/src/assets/images/photo_cv_2024.jpg" />
+            <img
+              class="img-cercle"
+              src="/src/assets/images/photo_cv_2024.jpg"
+              style="max-width: 150px; max-height: 150px"
+            />
             <h2 class="margin">Fredy Rodriguez</h2>
             <p class="margin">Etudiant en informatique de gestion</p>
             <p class="margin">
@@ -203,19 +246,13 @@
   </div>
 </template>
 <style scoped>
-#img {
-  max-width: 1800px;
-  max-height: 800px;
-  filter: brightness(0.9);
-}
-#img1 {
-  max-width: 500px;
-  max-height: 500px;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 .img-cercle {
+  border-radius: 50%; /* Makes the image round */
   width: 140px;
   height: 140px;
-  border: 180px;
-  border-radius: 180px;
 }
 </style>
