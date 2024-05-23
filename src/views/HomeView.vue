@@ -75,7 +75,7 @@
         <div class="col-lg-4">
           <img
             class="img-cercle"
-            src="https://www.architectes.org/sites/default/files/ecoconception_037348500_1623_161220151.png"
+            src="https://www.agence-web.green/wp-content/uploads/eco-friendly-web-design-illustration.webp"
             alt="logo_ecoconception"
           />
           <h2>Éco-concenption</h2>
