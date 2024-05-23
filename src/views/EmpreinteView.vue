@@ -1,81 +1,89 @@
+import { h } from 'vue';
 <template>
-  <div class="infographic container mt-5 mb-5 p-5 bg-light rounded shadow text-dark text-center">
-    <h1>Impact écologique</h1>
-    <div class="section" id="temperature-rise">
-      <h2>Augmentation des Températures</h2>
-      <p>
-        Les températures mondiales ont augmenté de <strong>1.5°C</strong> depuis l'ère
-        pré-industrielle.
-      </p>
-      <div class="row p-0 col-md-5 order-md-1 my-3 mx-auto">
-        <img
-          src="https://www.liberation.fr/resizer/BKeOcDgV2klzN42S4GA285V5tnU=/1600x0/filters:format(png):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/liberation/72MSVYFNQBBGHAXTUVUIGOADVA.png"
-          alt="Graphique des températures"
-          style="width: 500px; height: 500px"
-        />
-      </div>
-      <p>
-        <a
-          href="https://www.ecologie.gouv.fr/hausse-temperature-globale-sest-encore-accentuee-selon-dernier-rapport-du-giec"
-          >Source: GIEC</a
-        >
-      </p>
+  <div class="container py-4">
+    <div class="bg-primary text-white text-center p-3 rounded">
+      <h1 class="text-light">Empreinte Écologique des Sites Internet</h1>
     </div>
-    <div class="section" id="sea-level-rise">
-      <h2>Montée des Eaux</h2>
-      <p>Le niveau de la mer a augmenté de <strong>18cm</strong> depuis 2019.</p>
-      <div class="row p-0 col-md-5 order-md-1 my-3 mx-auto">
+
+    <div class="col-lg-12">
+      <div class="bg-light p-3 rounded mb-3 section">
+        <h2>Impact des Utilisateurs et des Terminaux</h2>
+        <p>
+          Les utilisateurs accèdent aux sites internet à travers divers terminaux comme les
+          ordinateurs, les téléphones portables et les tablettes. Chaque terminal consomme de
+          l'énergie et contribue à l'empreinte écologique, en particulier en raison des matériaux
+          utilisés et de l'énergie nécessaire à leur production et à leur fonctionnement.
+        </p>
         <img
-          src="https://static1.mclcm.net/iod/images/v2/69/photo/328476/630x354_100_300_000000x30x0.jpg?ts=20190926151650"
-          alt="Graphique de la montée des eaux"
+          src="/src/assets/images/terminaux.png"
+          alt="Impact des utilisateurs et des terminaux"
+          class="img-infographic"
         />
+        <!--sources-->
+        <p class="text-muted">
+          Source:
+          <a href="https://openai.com/index/dall-e-2/">DALL-E d'OpenAI</a>
+        </p>
       </div>
-      <p>
-        <a
-          href="https://www.letemps.ch/sciences/environnement/banquise-dete-larctique-deuxieme-plus-bas-niveau-jamais-observe"
-          >Source: La chaien météo</a
-        >
-      </p>
     </div>
-    <div class="section" id="ice-melt">
-      <h2>Fusion des Glaces</h2>
-      <ul
-        class="text-start p-0 col-md-5 order-md-1 my-3 mx-auto fs-5 list-unstyled text-dark text-center text-md-start"
-      >
-        <li>La banquise arctique a perdu <strong>12.8%</strong> de sa superficie en 40 ans.</li>
-        <li>
-          La calotte glaciaire du Groenland a perdu <strong>3.8%</strong> de sa masse en 10 ans.
-        </li>
-        <li>
-          La calotte glaciaire de l'Antarctique a perdu <strong>2.5%</strong> de sa masse en 10 ans.
-        </li>
-        <li>Les glaciers de montagne ont perdu <strong>28%</strong> de leur masse en 40 ans.</li>
-        <li>Les glaciers de l'Himalaya ont perdu <strong>15%</strong> de leur masse en 40 ans.</li>
-        <li>Les glaciers des Andes ont perdu <strong>30%</strong> de leur masse en 40 ans.</li>
-      </ul>
-      <img src="/src/assets/images/imageGlacier.png" alt="Graphique de la fusion des glaces" />
-      <p>
-        <a
-          href="https://www.letemps.ch/sciences/environnement/banquise-dete-larctique-deuxieme-plus-bas-niveau-jamais-observe"
-          >Source: Le Temps</a
-        >
-      </p>
+
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <div class="bg-light p-3 rounded mb-3 section">
+          <h2>Consommation Énergétique des Data Centers</h2>
+          <p>
+            Les centres de données, qui hébergent les sites internet, consomment une grande quantité
+            d'électricité, principalement pour alimenter les serveurs et refroidir les équipements.
+          </p>
+          <img
+            src="https://www.sciencesetavenir.fr/redaction/infographies/JPG/negawatt_it.jpg"
+            alt="Consommation énergétique des data centers"
+            class="img-infographic"
+          />
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="bg-light p-3 rounded mb-3 section">
+          <h2>Optimisation des Ressources Web</h2>
+          <p>
+            La minimisation des ressources nécessaires pour charger les sites web (comme les images
+            optimisées, le code minimaliste) peut réduire significativement l'empreinte énergétique.
+          </p>
+          <img
+            src="https://business-antidote.com/static/uploads/2016/03/10-points-optimisation-technique-contenu-site-internet.jpg"
+            alt="Optimisation des ressources web"
+            class="img-infographic"
+          />
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="bg-light p-3 rounded mb-3 section">
+          <h2>Énergies Renouvelables</h2>
+          <p>
+            L'adoption d'énergies renouvelables par les hébergeurs web est cruciale pour diminuer
+            l'impact environnemental des sites internet.
+          </p>
+          <img
+            src="https://cdn.hellowatt.fr/media/uploads/zinnia/2019/12/02/energies-renouvelables-graphiques.png"
+            alt="Utilisation d'énergies renouvelables"
+            class="img-infographic"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.infographic {
+.container {
   font-family: 'Arial', sans-serif;
   color: #333;
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
 }
 
-.infographic h1 {
-  color: #007bff;
-  text-align: center;
+.bg-primary {
+  background-color: #39d206 !important;
 }
 
 .section {
@@ -87,7 +95,7 @@
 }
 
 .section h2 {
-  color: #555;
+  color: #007bff;
 }
 
 .section p {
@@ -95,9 +103,9 @@
   line-height: 1.5;
 }
 
-.img {
-  width: 1000px;
-  height: 500px;
+.img-infographic {
+  width: 100%;
+  height: auto;
   display: block;
   margin-top: 10px;
   border-radius: 8px;

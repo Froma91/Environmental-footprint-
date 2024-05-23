@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container text-light justify-content-between">
-      <router-link to="/" class="navbar-brand text-light fw-bold">Eco-web</router-link>
+      <router-link to="/" class="navbar-brand">
+        <img src="/public/favicon.ico" alt="Empreinte écologique" class="img-infographic" />
+      </router-link>
       <button
         class="navbar-toggler bg-light"
         type="button"
