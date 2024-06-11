@@ -5,7 +5,7 @@
         class="img-fluid p-0 text-center rounded mx-auto d-block"
         src="/src/assets/images/Conception.png"
         alt="Cycle de vie d'un site Internet"
-        style="filter: brightness(0.9); max-width: 100%; height: auto"
+        style="filter: brightness(0.9); max-width: 93%; height: auto"
       />
     </div>
 
