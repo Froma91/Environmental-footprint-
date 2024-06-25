@@ -24,7 +24,7 @@
           </li>
           <li class="nav-item">
             <router-link to="/empreinte" class="nav-link"
-              ><a class="text-light text-center nav-link fs-5">Impacte écologique</a>
+              ><a class="text-light text-center nav-link fs-5">Impact écologique</a>
             </router-link>
           </li>
         </ul>
