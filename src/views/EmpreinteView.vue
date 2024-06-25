@@ -2,12 +2,12 @@ import { h } from 'vue';
 <template>
   <div class="container py-4">
     <div class="bg-primary text-white text-center p-3 rounded">
-      <h1 class="text-light">Empreinte Écologique des Sites Internet</h1>
+      <h1 class="text-light">Empreinte écologique des sites Internet</h1>
     </div>
 
     <div class="col-lg-12">
       <div class="bg-light p-3 rounded mb-3 section">
-        <h2>Impact des Utilisateurs et des Terminaux</h2>
+        <h2>Impact des utilisateurs et des terminaux</h2>
         <p>
           Les utilisateurs accèdent aux sites internet à travers divers terminaux comme les
           ordinateurs, les téléphones portables et les tablettes. Chaque terminal consomme de
@@ -30,7 +30,7 @@ import { h } from 'vue';
     <div class="row mt-4">
       <div class="col-lg-12">
         <div class="bg-light p-3 rounded mb-3 section">
-          <h2>Consommation Énergétique des Data Centers</h2>
+          <h2>Consommation énergétique des centres de données</h2>
           <p>
             Les centres de données, qui hébergent les sites internet, consomment une grande quantité
             d'électricité, principalement pour alimenter les serveurs et refroidir les équipements.
@@ -45,7 +45,7 @@ import { h } from 'vue';
 
       <div class="col-lg-12">
         <div class="bg-light p-3 rounded mb-3 section">
-          <h2>Optimisation des Ressources Web</h2>
+          <h2>Optimisation des ressources Web</h2>
           <p>
             La minimisation des ressources nécessaires pour charger les sites web (comme les images
             optimisées, le code minimaliste) peut réduire significativement l'empreinte énergétique.
@@ -60,7 +60,7 @@ import { h } from 'vue';
 
       <div class="col-lg-12">
         <div class="bg-light p-3 rounded mb-3 section">
-          <h2>Énergies Renouvelables</h2>
+          <h2>Énergies renouvelables</h2>
           <p>
             L'adoption d'énergies renouvelables par les hébergeurs web est cruciale pour diminuer
             l'impact environnemental des sites internet.
